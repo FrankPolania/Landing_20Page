@@ -3,21 +3,21 @@ import React from 'react';
 function Proyecto(props){
     return(
         <div className="card mb-4">
-  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+  <div className="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
     <img
       src="https://mdbootstrap.com/img/new/standard/nature/111.jpg"
-      class="img-fluid"
+      className="img-fluid"
     />
     <a href="#!">
-      <div class="mask"  ></div>
+      <div className="mask"  ></div>
     </a>
   </div>
-  <div class="card-body">
-    <h5 class="card-title">{props.nombre}</h5>
-    <p class="card-text">
+  <div className="card-body">
+    <h5 className="card-title">{props.nombre}</h5>
+    <p className="card-text">
         {props.text}
     </p>
-    <a href={props.enlace} class="btn btn-primary ms-auto">Button</a>
+    <a href={props.enlace} className="btn btn-primary ms-auto">Button</a>
   </div>
 </div>
     );

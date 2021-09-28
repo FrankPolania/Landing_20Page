@@ -15,13 +15,15 @@ function Proyectos(){
         <div className="col-12 col-md-6 col-lg-3">
         <Proyecto nombre="Proyecto 2" text={text} enlace={enlace}/>
         </div>
-        <div className="col-12 col-md-6 col-lg-3">
+        <div id="saludo" className="col-12 col-md-6 col-lg-3">
         <Proyecto nombre="Proyecto 3" text={text} enlace={enlace}/>
         </div>
         <div className="col-12 col-md-6 col-lg-3">
         <Proyecto nombre="Proyecto 4" text={text} enlace={enlace}/>
         </div>
-       
+        <div className="col-12 col-md-6 col-lg-3">
+        <Proyecto nombre="Proyecto 4" text={text} enlace={enlace}/>
+        </div>
         </div>
         </div>
 
