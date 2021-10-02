@@ -18,8 +18,8 @@ function Carousel(){
     </div>
   </div>
   <div className="overlay" >
-        <div id="cont" className="container">
-            <div className="row align-items-center">
+        <div id="cont2" className="container">
+            <div  id="cont" className="row align-items-center">
                 <div className="col-md-6 offset-md-6 text-right">
                    <h1>BOGOTA</h1> 
                    <h1>Silvicultural</h1>

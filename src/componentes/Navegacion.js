@@ -20,7 +20,7 @@ function Navegacion(){
             <a class="nav-link active" aria-current="page" href="./">Inicio</a>
           </li>
           <li className="nav-item">
-            <a class="nav-link" href=".nosotros.html">Nosotros</a>
+            <a class="nav-link" href="./nosotros">Nosotros</a>
           </li>
          
           <li class="nav-item">
@@ -34,7 +34,7 @@ function Navegacion(){
             
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="#">Login</a>
+            <a class="nav-link " href="./login">Login</a>
             
           </li>
          
