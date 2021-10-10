@@ -1,0 +1,23 @@
+Proyecto:
+nombre del proyecto 
+codigo del proyecto 
+entidad responsable
+descripcion del proyecto 
+
+
+arboles:
+codigo arbol
+codigo de proyecto
+especie
+altura
+diametro
+estado ( nuevo,saludable,no existe,requiere tratamiento,dar de baja)
+ubicacion
+ultimo reporte
+ingeniero reportante
+
+
+crud
+
+ 
+mongo "mongodb+srv://frankpolania.18mnc.mongodb.net" --username usuario1

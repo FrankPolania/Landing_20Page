@@ -55,3 +55,10 @@ p{
     width:30px;
     margin-right: 5px;
 }
+aside{
+    position: absolute;
+    top:60px;
+    left:0;
+    bottom: 0;
+    
+}
