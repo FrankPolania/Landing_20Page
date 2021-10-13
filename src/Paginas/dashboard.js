@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import usedatos from '../componentes/Usedatos';
-
+import { Link } from 'react-router-dom';
 //import { useHistory } from 'react-router-dom';
 
 // importando componentes 
@@ -43,11 +43,11 @@ return(
                 <span>hola</span></p>
 
                 </div>
-                <a className="col-12 btn btn-primary mb-2" href="/usuarios" >Usuarios</a>
-                <a className="col-12 btn btn-primary mb-2" href="/misproyectos">Mis proyectos</a>
-                <a className="col-12 btn btn-primary mb-2" href="/crearproyecto" >Crear proyectos</a>
-                <a className="col-12 btn btn-primary mb-2" href="/inventarioarboles" >Inventario Arboles</a>
-                <a className="col-12 btn btn-primary mb-2" href="/buscararbol" >buscar arbol</a>
+                <Link className="col-12 btn btn-primary mb-2" to="/usuarios" >Usuarios</Link>
+                <Link className="col-12 btn btn-primary mb-2" to="/misproyectos">Mis proyectos</Link>
+                <Link className="col-12 btn btn-primary mb-2" to="/crearproyecto" >Crear proyectos</Link>
+                <Link className="col-12 btn btn-primary mb-2" to="/inventarioarboles" >Inventario Arboles</Link>
+                <Link className="col-12 btn btn-primary mb-2" to="/buscararbol" >buscar arbol</Link>
 
                 </div>
                 </div>
