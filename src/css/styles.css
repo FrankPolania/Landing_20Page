@@ -56,9 +56,18 @@ p{
     margin-right: 5px;
 }
 aside{
-    position: absolute;
+    min-height: 100vh;
     top:60px;
     left:0;
     bottom: 0;
     
+}
+#usuario{
+    width: 80%;
+    padding: 5%;
+    border-radius: 50%;
+}
+
+#perfil{
+    color:white;
 }

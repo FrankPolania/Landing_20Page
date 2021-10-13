@@ -9,9 +9,13 @@ import Registro from './Paginas/Registro';
 import Navegacion from './componentes/Navegacion';
 import Footer from './componentes/Footer';
 import Dashboard from './Paginas/dashboard';
+import Proyectos from './componentes/Proyectos';
 
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter as Router,Route } from 'react-router-dom';
+import InventarioArboles from './componentes/InventarioArboles';
+import ListaUsuarios from './componentes/ListaUsuarios';
+import MisProyectos from './componentes/MisProyectos';
 
 
 ReactDOM.render(
@@ -25,6 +29,11 @@ ReactDOM.render(
         <Route exact path="/password" component={Password} />  
         <Route exact path="/registro" component={Registro} /> 
         <Route exact path="/dashboard" component={Dashboard}/>
+        <Route exact path="/inventarioarboles" component={InventarioArboles}/>
+        <Route exact path="/usuarios" component={Dashboard}/>
+        <Route exact path="/misproyectos" component={MisProyectos}/>
+
+
 
         <Footer />
       </div>

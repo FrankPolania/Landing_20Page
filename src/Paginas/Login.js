@@ -7,8 +7,8 @@ function Login(){
         <React.Fragment>
         <div id="logreg-forms">
         <form className="form-signin">
-            <h1 className="h3 mb-3 font-weight-normal" style={{textAlign: "center;"}}> Sign in</h1>
-            <input type="email" id="inputEmail" className="form-control" placeholder="Email address" required="" autofocus=""/>
+            <h1 className="h3 mb-3 font-weight-normal"> Sign in</h1>
+            <input type="email" id="inputEmail" className="form-control" placeholder="Email address" required="autofocus"/>
             <input type="password" id="inputPassword" className="form-control" placeholder="Password" required=""/>
             
             <button className="btn btn-success btn-block" type="submit"><i className="fas fa-sign-in-alt"></i> Sign in</button>

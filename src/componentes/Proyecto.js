@@ -6,7 +6,7 @@ function Proyecto(props){
   <div className="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
     <img
       src="https://mdbootstrap.com/img/new/standard/nature/111.jpg"
-      className="img-fluid"
+      className="img-fluid" alt="imagen"
     />
     <a href="#!">
       <div className="mask"  ></div>

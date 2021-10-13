@@ -17,14 +17,14 @@ function Footer(){
                 </div>
 
                 <div>
-                  <a href="" className="me-2 text-reset">
-                    <i className="fab fa-facebook-f"><img src={facebook} className="logo-social" /></i>
+                  <a href="http://google.com" className="me-2 text-reset">
+                    <i className="fab fa-facebook-f"><img src={facebook} className="logo-social" alt="imagen" /></i>
                   </a>
-                  <a href="" className="me-2 text-reset">
-                    <i className="fab fa-youtube"><img src={youtube} className="logo-social" /></i>
+                  <a href="http://google.com" className="me-2 text-reset">
+                    <i className="fab fa-youtube"><img src={youtube} className="logo-social" alt="imagen"/></i>
                   </a>
-                  <a href="" className="me-2 text-reset">
-                    <i className="fab fa-instagram"><img src={instagram} className="logo-social" /></i>
+                  <a href="http://google.com" className="me-2 text-reset">
+                    <i className="fab fa-instagram"><img src={instagram} className="logo-social" alt="imagen" /></i>
                   </a>
                 
                 </div>
@@ -32,7 +32,7 @@ function Footer(){
               </section>
               <div className="text-center p-1" >
                 © 2021 Copyright:
-                <a className="text-reset fw-bold" href="#">Silvicultural.com</a>
+                <a className="text-reset fw-bold" href="http://google.com">Silvicultural.com</a>
               </div>
           
           </footer>

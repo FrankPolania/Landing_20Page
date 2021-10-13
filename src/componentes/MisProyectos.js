@@ -4,7 +4,7 @@ import usedatos from './Usedatos';
 
 
 // importando componentes 
-
+import InventarioArboles from "./InventarioArboles";
 import Proyectos from "./Proyectos";
 //import CrearProyecto from "./Crearproyecto";
 import BuscarArbol from "./BuscarArbol";
@@ -14,13 +14,12 @@ import ListaUsuarios from "./ListaUsuarios";
 import '../css/styles.css'
 import imgUsuario from '../images/usuario.png';
 import ListaProyectos from './Listaproyectos';
-import ListaArboles from './ListaArboles';
 
 
 
 
 // inicio del componente  dashboard
-function InventarioArboles(){
+function MisProyectos(){
 let usuarios = usedatos();  
 
 const [opcion,setOpcion]= useState(Proyectos);//controlar pantalla
@@ -52,7 +51,7 @@ return(
         </aside>
         </div> 
             <div className="col-9">
-              <ListaArboles usuarios={usuarios}/>
+              <ListaProyectos />
             </div>
         </div>
 
@@ -61,4 +60,4 @@ return(
 
 
 }
-export default InventarioArboles;
+export default MisProyectos;
