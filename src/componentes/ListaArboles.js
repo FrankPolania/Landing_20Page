@@ -7,7 +7,7 @@ import Usedatos from "./Usedatos";
 function ListaArboles(){
  
 const Eliminar =(Id) =>{
-    const url ='http://localhost:3001/api/usuario/'+Id;
+    const url ='http://localhost:3000/api/usuario/'+Id;
     console.log(url);
     const fetchApi = async() => {
         const response = await fetch(url,{method:'DELETE'});

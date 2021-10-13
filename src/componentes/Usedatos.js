@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 
 function Usedatos(){
     const [usuarios,setUsuarios]=useState();
-    const url ='http://localhost:3001/api/usuario';
+    const url ='http://localhost:3000/api/usuario';
 
     const fetchApi = async() => {
         const response = await fetch(url);
@@ -27,7 +27,7 @@ export default Usedatos;
 /*
 function Usedatos(){
     const [usuarios,setUsuarios]=useState();
-    const url ='http://localhost:3001/api/usuario';
+    const url ='http://localhost:3000/api/usuario';
 
     const fetchApi = async() => {
         const response = await fetch(url);

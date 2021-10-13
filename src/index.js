@@ -35,7 +35,7 @@ ReactDOM.render(
 
 
 
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </Router>
    </React.StrictMode>,

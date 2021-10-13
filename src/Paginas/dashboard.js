@@ -30,7 +30,7 @@ const [opcion,setOpcion]= useState(Proyectos);//controlar pantalla
 
 return(
         <div className="conteiner-fluid">
-            <div className="row">
+             <div className="row">
             <div className="col-3" >  
             <aside className="bg-dark ">
                 <div className="conteiner">
@@ -54,10 +54,10 @@ return(
                 </div>  
             </aside>
             </div> 
-                <div className="col-9">
+                <div className="col-9"> 
                   <ListaUsuarios usuarios={usuarios}/>
-                </div>
-            </div>
+                 </div> 
+            </div> 
 
         </div>
     );
